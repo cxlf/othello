@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'San de More';
+    src: url('fonts/SanDeMore-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.article {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.headline {
+    font-family: 'San de More', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
